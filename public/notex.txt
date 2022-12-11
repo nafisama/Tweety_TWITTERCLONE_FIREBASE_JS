@@ -1,0 +1,1 @@
+changed firebase initialize from this to current : !getApp().length? initializeApp(firebaseConfig) :getApp() 
