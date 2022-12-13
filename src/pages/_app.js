@@ -10,6 +10,6 @@ function MyApp({ Component, pageProps }) {
    </GlobalContextProvider>
   
   );
-}
+};
 
-export default MyApp
+export default MyApp;

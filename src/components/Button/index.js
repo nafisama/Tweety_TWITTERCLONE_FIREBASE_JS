@@ -4,8 +4,13 @@ const Button = (
     {children,disabled}
 ) => {
   return (
-    <button className='w-full h-full text-center bg-blue-500' disabled={disabled}>{children}</button>
-  )
-}
+    <button 
+    className='w-full h-full text-center bg-blue-500' 
+    disabled={disabled}
+    >
+      {children}
+    </button>
+  );
+};
 
-export default Button
+export default Button;
