@@ -65,7 +65,7 @@ const Header = () => {
       <div className="flex items-center space-x-6 ">
         <div className="flex space-x-6">
           {HEADER_ITEMS.map((item) => (
-            <HeaderIcon Icon={item.icon} key={item.name} />
+            <HeaderIcon Icon={item.icon} name={item.name} key={item.name} />
           ))}
         </div>
         <button

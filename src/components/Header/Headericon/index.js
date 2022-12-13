@@ -17,6 +17,7 @@ const HeaderIcon = ({Icon,name}) => {
   return (
     <div className=' p-3 hover:bg-yellow-400  transition  rounded'>
         <Icon
+        onClick={handleClickIcon}
         className="text-yellow hover:text-black "
         size = {30}
         />
