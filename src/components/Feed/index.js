@@ -6,7 +6,7 @@ import {
   GlobalContext,
   GlobalDispatchContext,
 } from '../../state/context/GlobalContext';
-import Modal from '../Modal';
+import Modal from '../Modal/Modal';
 import { db, storage } from '../../lib/firebase';
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { uuidv4 } from '@firebase/util';

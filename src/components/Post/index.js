@@ -15,7 +15,7 @@ import {
 import Image from 'next/image';
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import {AiOutlineHeart,AiFillHeart} from "react-icons/ai";
-import {GoComment} from "react-icons/go";git 
+import {GoComment} from "react-icons/go";
 //import {BsSave} from "react-icons/bs";
 import { BsBookmark, BsEmojiSmile, BsThreeDots } from 'react-icons/bs';
 import { IoShareOutline } from 'react-icons/io5';
