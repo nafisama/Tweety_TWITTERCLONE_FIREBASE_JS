@@ -153,7 +153,7 @@ const Feed = () => {
             <div className="w-full py-4 text-xl font-light text-center border-b border-black">
               Create new post
             </div>
-          <div className="flex items-center justify-center w-full h-full">
+          <div className="flex overflow-y-scroll items-center justify-center w-full h-full">
             {!file ? (
               <>
                 <label
@@ -178,6 +178,8 @@ const Feed = () => {
               <div className="flex flex-col p-5 gap-y-4">
                 <input
                   type="image"
+                  layout="fill"
+                  width="auto"
                   src={media.src}
                   className="w-80 h-80"
                   ref={currentImage}
@@ -193,7 +195,7 @@ const Feed = () => {
                   value={media.caption}
                   className="w-full px-2 py-4 bg-gray-100 border rounded outline-none hover:bg-transparent focus:bg-transparent focus:border-gray-400"
                 />
-                <div className="flex items-center justify-center w-full gap-x-6">
+                <div className="flex items-center justify-center w-full gap-x-6 ">
                   <button
                     className="bg-[#0095F6] py-2 px-4 text-white active:scale-95 transform transition  disabled:bg-opacity-50 select-none cursor-pointer disabled:scale-100 rounded text-xl font-semibold"
                     onClick={handleRemovePost}
