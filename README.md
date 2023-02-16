@@ -1,7 +1,10 @@
 
-## AL THE INFO ABOUT DEPLOYMENT AND HOSTING A Next.js App 
+## Instructions 
+- Create a user account on the site: https://mytweety.vercel.app/ or Choose Login if you already have an account
+- Then Enter username and Full Name (for New users) 
+- Now Feel free to view other user posts and like them and also post your own posts. 
 
-## Learn More
+## Learn More about Deployment and hosting a NextJs App
 
 To learn more about Next.js, take a look at the following resources:
 
