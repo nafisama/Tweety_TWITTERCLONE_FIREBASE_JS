@@ -153,7 +153,7 @@ const Feed = () => {
             <div className="w-full py-4 text-xl font-light text-center border-b border-black">
               Create new post
             </div>
-          <div className="flex overflow-y-scroll items-center justify-center w-full h-full">
+          <div className="flex items-center justify-center w-full h-full">
             {!file ? (
               <>
                 <label
