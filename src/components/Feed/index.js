@@ -227,18 +227,7 @@ const Feed = () => {
         {/*  Sidebar stuff */}
         <div className=" fixed right-[10%] max-w-sm">
           <div className="flex">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-            optio? Eius quia quis iste ipsa in impedit eligendi voluptatibus
-            tenetur praesentium iure! Soluta nemo doloremque quod est quisquam
-            explicabo placeat, amet deleniti ex saepe, officiis quaerat
-            asperiores aliquid molestias rem iure perspiciatis quam! Quidem quo
-            laudantium cumque, dolore mollitia illo ullam. Perspiciatis cumque
-            in, recusandae reprehenderit asperiores, optio explicabo a adipisci
-            fuga ad facilis ipsum, ullam dicta ipsa dignissimos placeat
-            deleniti. Mollitia aliquid dolor odit, ullam laboriosam corrupti et.
-            Id atque dolor repellendus porro, laboriosam rem odio ex quaerat
-            unde tenetur consectetur vero! Veniam sequi et a illo consectetur
-            repellat.
+            update later
           </div>
         </div>
       </div>
